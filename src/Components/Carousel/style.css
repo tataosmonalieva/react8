@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin : 0 ;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.movie-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.carousel-img {
+    height: 100vh;
+}
+.carousel-poster{
+    max-height: 400px;
+    height: 100%;
+    max-width: 600px;
+    width: 100%;
+    object-fit: contain;
+}
+.carousel-poster h3, h2,p,p {
+    max-width: 400px;
+    color: white;
+}
+.carousel-card {
+    color: white;
+}
